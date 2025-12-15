@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commandes - Molokay</title>
+    <title>Molokay</title>
 </head>
 <body>
     <header>
         <div class="first">
-            <a href="index.html"><img src="bb.jpg" alt="logo" id="logo"></a>
+            <a href="index.html"><img src="veh.jpg" alt="Molokay" id="logo"></a>
             <div class="flex logo">
                 <i class="fas fa-map-marker"></i>
                 <div>
@@ -35,17 +35,15 @@
                 <i class="fas fa-caret-down"></i>
             </div>
             <div class="account-section">
-                <a href="login.html">
-                    <div class="sign">
-                        <span>Bonjour, connectez-vous</span>
-                        <div class="flex ac">
-                            <span>Espace Client </span>
-                            <i class="fas fa-caret-down"></i>
-                        </div>
+                <div class="sign">
+                    <span>connectez-vous</span>
+                    <div class="flex ac">
+                        <span>Espace Client </span>
+                        <i class="fas fa-caret-down"></i>
                     </div>
-                </a>
+                </div>
                 <div class="returns">
-                    <span>Retours et Commandes</span>
+                    <span>Commandes</span>
                 </div>
             </div>
             <div class="flex cart">
@@ -55,8 +53,8 @@
             </div>
         </div>
     </header>
-<section>
-                <div class="second">
+
+    <section class="second">
         <div class="second-1">
             <i class="fas fa-bars"></i>
             <span>Tous</span>
@@ -75,44 +73,51 @@
         <div class="second-3">
             <span><a href="products.html">Découvrez nos offres</a></span>
         </div>
-    </div>
-</section>
-<main>
-    <section id="slider">
-        <div class="slider">
-            <div class="slides">
-                <img src="bb.jpg" alt="Molokay Logo">
-                <img src="veh.jpg" alt="Véhicules de transport">
-                <img src="v.jpg" alt="Services logistiques">
-                <img src="c.jpg" alt="Portes en bois">
-            </div>
-            <div class="indicators">
-                <span class="active"></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
     </section>
-    <section id="presentation">
-        <h1>Bienvenue chez Molokay</h1>
-        <img src="https://via.placeholder.com/800x400?text=Molokay+Transport+et+Logistique" alt="Molokay Transport et Logistique" style="width:100%; max-width:800px;">
-        <p>Molokay est une entreprise leader dans le transport de marchandises, la logistique et la fabrication de portes en bois. Nous offrons des services fiables et efficaces pour répondre à vos besoins en République Démocratique du Congo.</p>
-        <div class="home-buttons">
-            <a href="services.html" class="cta-button">Voir nos services</a>
-            <a href="orders.html" class="cta-button">Commander</a>
-            <a href="contact.html" class="cta-button">Nous contacter</a>
-        </div>
-    </section>
-</main>
 
-<footer>
-    <p>&copy; 2025 Molokay - Transport et Logistique. Contact: contact@molokay.com | Tel: +243 XXX XXX XXX</p>
+    <main>
+        <h1>Espace Client - Inscription</h1>
+        <img src="https://via.placeholder.com/500x300?text=Espace+Client+Molokay" alt="Espace Client" style="width:100%; max-width:500px;">
+
+        <section id="login">
+            <h2>Connexion</h2>
+            <form id="login-form" action="#" method="post">
+                <label for="login-email">Email :</label>
+                <input type="email" id="login-email" name="email" required><br>
+
+                <label for="login-password">Mot de passe :</label>
+                <input type="password" id="login-password" name="password" required><br>
+
+                <button type="submit">Se connecter</button>
+            </form>
+        </section>
+
+        <section id="register">
+            <h2>Inscription</h2>
+            <form id="register-form" action="#" method="post">
+                <label for="reg-username">Nom d'utilisateur :</label>
+                <input type="text" id="reg-username" name="username" required><br>
+
+                <label for="reg-email">Email :</label>
+                <input type="email" id="reg-email" name="email" required><br>
+
+                <label for="reg-password">Mot de passe :</label>
+                <input type="password" id="reg-password" name="password" required><br>
+
+                <button type="submit">S'inscrire</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Molokay - Transport et Logistique. Contact: contact@molokay.com | Tel: +243 XXX XXX XXX</p>
         <div class="social-links" id="social">
             <a href="https://facebook.com/molokay" target="_blank"><img src="https://via.placeholder.com/40x40?text=FB" alt="Facebook"></a>
             <a href="https://twitter.com/molokay" target="_blank"><img src="https://via.placeholder.com/40x40?text=TW" alt="Twitter"></a>
             <a href="https://linkedin.com/company/molokay" target="_blank"><img src="https://via.placeholder.com/40x40?text=LI" alt="LinkedIn"></a>
         </div>
-<script src="js/script.js"></script>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
