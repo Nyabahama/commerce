@@ -2,17 +2,17 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="mm.jpg" type="image/png">
+    <link rel="icon" href="mm.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À propos - Molokay</title>
+    <title>À propos - MontLocay</title>
 </head>
 <body>
     <header>
         <div class="first">
-            <a href="index.html"><img src="m.png" alt="logo" id="logo"></a>
+            <a href="index.html"><img src="mm.png" alt="logo" id="logo"></a>
             <div class="flex logo">
                 <i class="fas fa-map-marker"></i>
                 <div>
@@ -21,31 +21,27 @@
                 </div>
             </div>
         </div>
+        <div class="flex lang">
+        <img src="https://flagcdn.com/w20/cd.png" alt="Drapeau"> 
+        </div>
         <div class="flex input">
-            <div>
-                <span>Tous</span>
-                <i class="fas fa-caret-down"></i>
-            </div>
             <input type="text" placeholder="Rechercher...">
             <i class="fas fa-search"></i>
         </div>
         <div class="flex right">
             <div class="flex lang">
-                <img src="https://flagcdn.com/w20/cd.png" alt="Drapeau">
-                <i class="fas fa-caret-down"></i>
+                
             </div>
             <div class="account-section">
                 <a href="login.html">
                     <div class="sign">
                         <span>connectez-vous</span>
                         <div class="flex ac">
-                            <span>Espace Client </span>
-                            <i class="fas fa-caret-down"></i>
                         </div>
                     </div>
                 </a>
                 <div class="returns">
-                    <span>Retours</span>
+                    <span>Commandes</span>
                 </div>
             </div>
             <div class="flex cart">
@@ -56,32 +52,29 @@
         </div>
     </header>
 
-    <section class="second">
-        <div class="second-1">
+<section>
+        <div class="second">
+        <div class="second-1" id="menu-btn">
             <i class="fas fa-bars"></i>
-            <span>Tous</span>
         </div>
-        <div class="second-2">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="products.html">Produits</a></li>
-                <li><a href="login.html">Connexion</a></li>
-                <li><a href="#social">Réseaux Sociaux</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <div class="second-2" id="menu">
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="about.html">À propos</a>
+                <a href="services.html">Services</a>
+                <a href="produits.html">Produits</a>
+                <a href="orders.html">Commander</a>
+                <a href="login.html">Connexion</a>
+            </nav> 
         </div>
-        <div class="second-3">
-            <span><a href="products.html">Découvrez nos offres</a></span>
-        </div>
-    </section>
+    </div>
+</section>
 
     <main>
-        <h1>À propos de Molokay</h1>
+        <h1>À propos de MontLocay</h1>
         <section>
             <h2>Notre Histoire</h2>
-            <p>Molokay a été fondée en 2010 à Goma, RDCongo, 
+            <p>MontLocay a été fondée en 2010 à Goma, RDCongo, 
                 avec pour mission de faciliter le transport dans la région. 
                 Au fil des années, nous avons élargi nos services pour inclure la logistique  et 
                 la fabrication de portes en bois de qualité.</p>
@@ -110,20 +103,25 @@
         </section>
         <section id="transparency">
             <h2>Engagement à la Transparence</h2>
-            <p>Chez Molokay, la transparence est au cœur de notre culture d'entreprise. Nous publions régulièrement des rapports sur nos opérations, nos tarifs et nos impacts. Vous pouvez consulter nos derniers rapports ci-dessous :</p>
-            <ul>
-                <li><a href="#">Rapport Annuel 2023</a></li>
-                <li><a href="#">Politique de Transparence</a></li>
-            </ul>
+            <p>Chez MontLocay, la transparence est au cœur de notre culture d'entreprise. Nous publions régulièrement des rapports sur nos opérations, nos tarifs et nos impacts. Vous pouvez consulter nos derniers rapports ci-dessous :</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Molokay - Transport et Logistique. Contact: contact@molokay.com | Tel: +243 976 396 511</p>
+        <p>&copy; 2025 MontLocay - Transport et Logistique. Contact: contact@montlocay.com | Tel: +243 976 396 511</p>
         <div class="social-links" id="social">
-            <a href="https://facebook.com/molokay" target="_blank"><img src="https://via.placeholder.com/40x40?text=FB" alt="Facebook"></a>
-            <a href="https://twitter.com/molokay" target="_blank"><img src="https://via.placeholder.com/40x40?text=TW" alt="Twitter"></a>
-            <a href="https://linkedin.com/company/molokay" target="_blank"><img src="https://via.placeholder.com/40x40?text=LI" alt="LinkedIn"></a>
+            <a href="https://wa.me/243976396511" target="_blank"
+   style="
+   position:fixed;
+   right: 50px;
+   bottom:10px;
+   background:#25D366;
+   color:white;
+   padding:10px;
+   border-radius:10px;
+   font-weight:bold;
+   z-index:10;">
+   💬 Contactez-nous</a>
         </div>
     </footer>
     <script src="js/script.js"></script>

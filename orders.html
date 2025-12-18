@@ -2,50 +2,45 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="mm.jpg" type="image/png">
+    <link rel="icon" href="mm.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commandes - Molokay</title>
+    <title>Commandes - MontLocay</title>
 </head>
 <body>
     <header>
         <div class="first">
-            <a href="index.html"><img src="mm.jpg" alt="logo" id="logo"></a>
+            <a href="index.html"><img src="mm.png" alt="logo" id="logo"></a>
             <div class="flex logo">
                 <i class="fas fa-map-marker"></i>
                 <div>
-                    <span> Basé à</span>
+                    <span>à</span>
                     <span>Goma</span>
                 </div>
             </div>
         </div>
-        <div class="flex input">
-            <div>
-                <span>Tous</span>
-                <i class="fas fa-caret-down"></i>
+        </div>
+         <div class="flex lang">
+                <img src="https://flagcdn.com/w20/cd.png" alt="Drapeau">
             </div>
+        <div class="flex input">
             <input type="text" placeholder="Rechercher...">
             <i class="fas fa-search"></i>
         </div>
         <div class="flex right">
-            <div class="flex lang">
-                <img src="https://flagcdn.com/w20/cd.png" alt="Drapeau">
-                <i class="fas fa-caret-down"></i>
-            </div>
             <div class="account-section">
                 <a href="login.html">
                     <div class="sign">
                         <span>connectez-vous</span>
                         <div class="flex ac">
-                            <span>Espace Client </span>
-                            <i class="fas fa-caret-down"></i>
                         </div>
                     </div>
                 </a>
-                <div class="returns">
-                    <span>Retours</span>
+                <div flex right>
+                <div class="orders-section">
+                    <span>Commandes</span>
                 </div>
             </div>
             <div class="flex cart">
@@ -56,31 +51,28 @@
         </div>
     </header>
 
-    <section class="second">
-        <div class="second-1">
+<section>
+        <div class="second">
+        <div class="second-1" id="menu-btn">
             <i class="fas fa-bars"></i>
-            <span></span>
         </div>
-        <div class="second-2">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="products.html">Produits</a></li>
-                <li><a href="login.html">Connexion</a></li>
-                <li><a href="#social">Réseaux Sociaux</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <div class="second-2" id="menu">
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="about.html">À propos</a>
+                <a href="services.html">Services</a>
+                <a href="produits.html">Produits</a>
+                <a href="orders.html">Commander</a>
+                <a href="login.html">Connexion</a>
+            </nav> 
         </div>
-        <div class="second-3">
-            <span><a href="products.html">Découvrez nos offres</a></span>
-        </div>
-    </section>
+    </div>
+</section>
 
     <main>
         <h1>Passer une Commande</h1>
         <img src="https://via.placeholder.com/500x300?text=Commande+en+Ligne" alt="Commande en ligne" style="width:100%; max-width:500px;">
-        <form action="mailto:contact@molokay.com" method="post" enctype="text/plain">
+        <form action="wa.me/243976396511" target="_blank" method="post" enctype="text/plain">
             <label for="service">Service souhaité :</label>
             <select id="service" name="service">
                 <option value="transport">Transport de marchandises</option>
@@ -99,11 +91,11 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Molokay - Transport et Logistique. Contact: contact@molokay.com | Tel: +243 976 396 511</p>
+        <p>&copy; 2025 MontLocay - Transport et Logistique. Contact: contact@montlocay.com | Tel: +243 976 396 511</p>
         <div class="social-links" id="social">
-            <a href="https://facebook.com/molokay" target="_blank"><img src="https://via.placeholder.com/40x40?text=FB" alt="Facebook"></a>
-            <a href="https://twitter.com/molokay" target="_blank"><img src="https://via.placeholder.com/40x40?text=TW" alt="Twitter"></a>
-            <a href="https://linkedin.com/company/molokay" target="_blank"><img src="https://via.placeholder.com/40x40?text=LI" alt="LinkedIn"></a>
+            <a href="https://facebook.com/montlocay" target="_blank"><img src="https://via.placeholder.com/40x40?text=FB" alt="Facebook"></a>
+            <a href="https://twitter.com/montlocay" target="_blank"><img src="https://via.placeholder.com/40x40?text=TW" alt="Twitter"></a>
+            <a href="https://linkedin.com/company/montlocay" target="_blank"><img src="https://via.placeholder.com/40x40?text=LI" alt="LinkedIn"></a>
         </div>
     </footer>
 
