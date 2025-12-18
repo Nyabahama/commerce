@@ -69,26 +69,28 @@
     </div>
 </section>
 
-    <main>
-        <h1>Passer une Commande</h1>
-        <img src="https://via.placeholder.com/500x300?text=Commande+en+Ligne" alt="Commande en ligne" style="width:100%; max-width:500px;">
-        <form action="wa.me/243976396511" target="_blank" method="post" enctype="text/plain">
-            <label for="service">Service souhaité :</label>
-            <select id="service" name="service">
-                <option value="transport">Transport de marchandises</option>
-                <option value="logistique">Logistique</option>
-                <option value="portes">Fabrication de portes en bois</option>
-            </select><br>
+<main>
+    <h1>Passer une Commande</h1>
 
-            <label for="details">Détails :</label>
-            <textarea id="details" name="details"></textarea><br>
+    <form id="commandeForm">
+        <label>Service :</label>
+        <select id="service">
+            <option value="Transport de marchandises">Transport de marchandises</option>
+            <option value="Logistique">Logistique</option>
+            <option value="Fabrication de portes en bois">Fabrication de portes en bois</option>
+        </select><br><br>
 
-            <label for="date">Date souhaitée :</label>
-            <input type="date" id="date" name="date"><br>
+        <label>Détails :</label>
+        <textarea id="details"></textarea><br><br>
 
-            <button type="submit">Envoyer la commande</button>
-        </form>
-    </main>
+        <label>Date souhaitée :</label>
+        <input type="date" id="date"><br><br>
+
+        <button type="submit">Envoyer la commande</button>
+    </form>
+</main>
+
+</body>
 
     <footer>
         <p>&copy; 2025 MontLocay - Transport et Logistique. Contact: contact@montlocay.com | Tel: +243 976 396 511</p>

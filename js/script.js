@@ -171,3 +171,20 @@ function searchsite(){
 document.getElementById("seaechIcon").addEventListener("click",function () {
     alert("r active");
 });
+document.getElementById("commandeForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const service = document.getElementById("service").value;
+    const details = document.getElementById("details").value;
+    const date = document.getElementById("date").value;
+
+    const message =
+        `Bonjour, je souhaite passer une commande.\n\n` +
+        `Service : ${service}\n` +
+        `Détails : ${details}\n` +
+        `Date souhaitée : ${date}`;
+
+    const url = "https://wa.me/243976396511?text=" + encodeURIComponent(message);
+
+    window.open(url, "_blank");
+});
