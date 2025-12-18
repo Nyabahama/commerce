@@ -144,3 +144,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+document.getElementById("commandeForm").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    emailjs.send("service_id", "template_id", {
+        service: document.getElementById("service").value,
+        details: document.getElementById("details").value,
+        date: document.getElementById("date").value
+    })
+    .then(() => alert("Commande envoyée avec succès"))
+    .catch(() => alert("Erreur d'envoi"));
+});
+
